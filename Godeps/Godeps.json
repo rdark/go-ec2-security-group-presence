@@ -1,0 +1,14 @@
+{
+	"ImportPath": "github.com/majorleaguesoccer/go-ec2-security-group-presence",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/brycekahle/goamz/ec2",
+			"Rev": "37d9d474ac578bf4eb8b1203c0fcac0768ac370c"
+		},
+		{
+			"ImportPath": "github.com/crowdmob/goamz/aws",
+			"Rev": "6c57531496883859a5876ee28813c83747c48992"
+		}
+	]
+}
