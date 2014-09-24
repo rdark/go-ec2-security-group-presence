@@ -85,7 +85,6 @@ func getSecurityGroupIds(instanceID string) map[string]bool {
 		log.Fatalln("Error describing instance attributes", err)
 	}
 
-	log.Println(resp.SecurityGroups)
 	groupIds := make(map[string]bool)
 	for _, g := range resp.SecurityGroups {
 		groupIds[g.Id] = true
